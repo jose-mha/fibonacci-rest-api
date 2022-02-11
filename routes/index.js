@@ -1,6 +1,6 @@
 const express = require('express');
 
-const principalRouter = require('./principal.router');
+const principalRouter = require('./general.router');
 
 function routerAPI(app) {
   const router = express.Router();
